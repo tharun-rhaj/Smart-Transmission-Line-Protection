@@ -44,7 +44,7 @@ TinyGPSPlus gps;
 // WiFi Settings
 //-------------------------
 const char* ssid = "LineShield_AP";
-const char* password = "12345678";
+const char* password = "Your_AP_Password";
 
 WebServer server(80);
 
