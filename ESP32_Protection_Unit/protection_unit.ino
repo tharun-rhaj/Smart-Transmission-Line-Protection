@@ -57,7 +57,7 @@ float current = 0;
 float zeroVoltage = 2.1325; // ACS712 zero-current voltage, calibrated at boot
 float sensitivity = 0.066;  // 66 mV/A for ACS712-30A module
 
-const float LOW_CURRENT_THRESHOLD  = 16.40; // Below this = LINE SNAP (load disconnected)
+const float LOW_CURRENT_THRESHOLD  = 16.40A; // Below this = LINE SNAP (load disconnected)
 const float HIGH_CURRENT_THRESHOLD = 18.01; // Above this = OVERCURRENT (overload fault)
 
 //-------------------------
